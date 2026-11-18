@@ -1,0 +1,15 @@
+#app{overflow:auto}
+.hero{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;color:#fff;text-align:center;background:linear-gradient(135deg,#1b2f6b,#2f80ed 55%,#7b4fd1);max-width:none;margin:0}
+.hero .card{width:100%;max-width:440px;color:var(--tx);text-align:right}
+.hero .btn.ghost.sm{color:#fff;border-color:rgba(255,255,255,.7);margin-bottom:4px;align-self:flex-start}
+.hero>.btn.sm,.hero>.card{margin-top:10px}
+.crest{width:92px;height:92px;border-radius:50%;background:rgba(255,255,255,.18);border:2px solid rgba(255,255,255,.5);display:flex;align-items:center;justify-content:center;font-size:2.8em;box-shadow:0 8px 30px rgba(0,0,0,.25)}
+.hero h1{font-size:1.5em;margin:14px 0 4px}
+.hero p{margin:0 0 10px;opacity:.85}
+.opt{width:100%;max-width:380px;margin-top:14px;padding:20px;border-radius:22px;cursor:pointer;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#fff;text-align:right;display:flex;gap:14px;align-items:center;transition:transform .15s}
+.opt:hover{transform:translateY(-3px);background:rgba(255,255,255,.22)}
+.opt .ic{font-size:2.2em}.opt b{display:block;font-size:1.1em}.opt span{opacity:.85;font-size:.85em}
+.tb{border-collapse:collapse;min-width:100%;font-size:.85em}
+.tb th,.tb td{border:1px solid var(--bd);padding:4px;text-align:center;min-width:92px}
+.tb th{background:var(--bg)}
+.tb td input,.tb th input{padding:6px;border-radius:8px;font-size:.95em;text-align:center}
